@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 
 export default function Home() {
@@ -6,8 +7,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Create Next App</title>
-        <h1>Hello there</h1>
       </Head>
+
+      <Header/>
     </div>
   )
 }
